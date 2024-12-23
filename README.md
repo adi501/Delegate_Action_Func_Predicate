@@ -61,4 +61,11 @@ Predicate can be used with method, anonymous and lambda expression.
 
  ![image](https://github.com/user-attachments/assets/5bf4a086-7065-4671-ada6-ad58631fe713)
 
- 
+
+**Different Between Func, Action, Predicate in c#?**
+
+
+ ![image](https://github.com/user-attachments/assets/ecf70cb3-02e4-479e-a814-35550f47ff94)
+
+
+
