@@ -4,7 +4,13 @@
     {
         Func<int, int, int> objFunc = Add;
         Console.WriteLine("Add= " + objFunc(20, 10));
-        
+        //Func with an Anonymous Method
+        Func<int, int, int> objfuc2 = delegate (int a, int b)
+        {
+            return a + b;
+        };
+        Console.WriteLine("Add= " + objfuc2(20, 10));
+      
         Console.ReadLine();
     }
     public static int Add(int a, int b)
