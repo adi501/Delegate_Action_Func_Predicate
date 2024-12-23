@@ -3,7 +3,9 @@
 **Delegates**
 Delegates are pointers to function. Delegates are used for implementing events and call back methods.
 Delegates are two types 
+
 •	Single Cast Delegates
+
 •	Multi Cast Delegates
 
 **Single Cast Delegates**
