@@ -12,7 +12,9 @@
             Console.WriteLine("Add= " + (a + b));
         };
         objaction2(20, 10);
-
+        //Action with a Lambda expression
+        Action<int, int> objaction3 = (int a, int b) => { Console.WriteLine("Add= " + (a + b)); };
+        objaction3(20, 10);
         Console.ReadLine();
     }
     public static void Add(int a, int b)
