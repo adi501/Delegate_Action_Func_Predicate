@@ -1,4 +1,6 @@
-﻿internal class Program
+﻿using System;
+
+internal class Program
 {
     private static int Result;
     static void Main(string[] args)
@@ -11,6 +13,12 @@
             return Char.IsNumber(a) ? true : false;
         };
         Console.WriteLine("It is Number= " + objPredicate1('1'));
+        // predicate with Lambda expressions
+        Predicate<char> objPredicate2 = (char a) =>
+        {
+            return Char.IsNumber(a) ? true : false;
+        };
+        Console.WriteLine("It is Number= " + objPredicate2('1'));
         Console.ReadLine();
     }
     public static bool isNumber(char a)
