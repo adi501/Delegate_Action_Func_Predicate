@@ -10,7 +10,9 @@
             return a + b;
         };
         Console.WriteLine("Add= " + objfuc2(20, 10));
-      
+        //Func with Lambda Expression
+        Func<int, int, int> objfuc3 = (int a, int b) => (a + b);
+        Console.WriteLine("Add= " + objfuc3(20, 10));
         Console.ReadLine();
     }
     public static int Add(int a, int b)
