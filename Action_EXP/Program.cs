@@ -6,6 +6,13 @@
         Action<int, int> objaction = Add;
         objaction(20, 10);
         Console.WriteLine("Add= " +Result);
+        //Action with an Anonymous method
+        Action<int, int> objaction2 = delegate (int a, int b)
+        {
+            Console.WriteLine("Add= " + (a + b));
+        };
+        objaction2(20, 10);
+
         Console.ReadLine();
     }
     public static void Add(int a, int b)
